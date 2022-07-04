@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\User\Music\Procedural_Animation\Terrains\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\User\Music\Procedural_Animation\Terrains\loadTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Music\Procedural_Animation\Terrains\noise.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Music\Procedural_Animation\Terrains\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\User\Music\Procedural_Animation\Terrains\skybox_fshader.glsl" />
+    <None Include="C:\Users\User\Music\Procedural_Animation\Terrains\skybox_vshader.glsl" />
+    <None Include="C:\Users\User\Music\Procedural_Animation\Terrains\terrain_fshader.glsl" />
+    <None Include="C:\Users\User\Music\Procedural_Animation\Terrains\terrain_vshader.glsl" />
+    <None Include="C:\Users\User\Music\Procedural_Animation\Terrains\water2_fshader.glsl" />
+    <None Include="C:\Users\User\Music\Procedural_Animation\Terrains\water2_vshader.glsl" />
+    <None Include="C:\Users\User\Music\Procedural_Animation\Terrains\water_fshader.glsl" />
+    <None Include="C:\Users\User\Music\Procedural_Animation\Terrains\water_vshader.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{AE0F83B7-7BBE-3379-84BE-C8E0B149FDF8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0521B5FF-83E0-32A8-B89D-C26EAD34CC13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\USERS\USER\MUSIC\PROCEDURAL_ANIMATION\TERRAINS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/User/Music/Procedural_Animation -BC:/Users/User/Music/Procedural_Animation/build --check-stamp-file C:/Users/User/Music/Procedural_Animation/build/Terrains/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

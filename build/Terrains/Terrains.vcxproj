@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CD2CB3EA-0F1D-3B6F-8744-EA99AE9C2629}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Terrains</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\User\Music\Procedural_Animation\build\Terrains\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Terrains.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Terrains</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\User\Music\Procedural_Animation\build\Terrains\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Terrains.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Terrains</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\User\Music\Procedural_Animation\build\Terrains\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Terrains.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Terrains</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\User\Music\Procedural_Animation\build\Terrains\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Terrains.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Terrains</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\User\Music\Procedural_Animation\common;C:\Users\User\Music\Procedural_Animation\external\eigen\include;C:\Users\User\Music\Procedural_Animation\external\OpenCV\include;C:\Users\User\Music\Procedural_Animation\common\..\external;C:\Users\User\Music\Procedural_Animation\external\glew\include;C:\Users\User\Music\Procedural_Animation\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;WITH_EIGEN;WITH_OPENCV;OPENGP_HEADERONLY;USE_EIGEN;WITH_OPENGP;WITH_OPENGL;GLEW_STATIC;WITH_GLEW;WITH_GLFW;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;WITH_EIGEN;WITH_OPENCV;OPENGP_HEADERONLY;USE_EIGEN;WITH_OPENGP;WITH_OPENGL;GLEW_STATIC;WITH_GLEW;WITH_GLFW;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\User\Music\Procedural_Animation\common;C:\Users\User\Music\Procedural_Animation\external\eigen\include;C:\Users\User\Music\Procedural_Animation\external\OpenCV\include;C:\Users\User\Music\Procedural_Animation\common\..\external;C:\Users\User\Music\Procedural_Animation\external\glew\include;C:\Users\User\Music\Procedural_Animation\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\User\Music\Procedural_Animation\common;C:\Users\User\Music\Procedural_Animation\external\eigen\include;C:\Users\User\Music\Procedural_Animation\external\OpenCV\include;C:\Users\User\Music\Procedural_Animation\common\..\external;C:\Users\User\Music\Procedural_Animation\external\glew\include;C:\Users\User\Music\Procedural_Animation\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>legacy_stdio_definitions.lib;..\..\external\OpenCV\lib\opencv_core453d.lib;..\..\external\OpenCV\lib\opencv_highgui453d.lib;..\..\external\OpenCV\lib\opencv_imgcodecs453d.lib;..\..\external\OpenCV\lib\opencv_imgproc453d.lib;..\..\external\OpenCV\lib\opencv_videoio453d.lib;..\..\external\OpenCV\lib\zlibd.lib;opengl32.lib;glu32.lib;..\..\external\glew\lib\x64\glew64.lib;..\..\external\glfw\lib-vc2017\glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/User/Music/Procedural_Animation/build/Terrains/Debug/Terrains.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/User/Music/Procedural_Animation/build/Terrains/Debug/Terrains.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\User\Music\Procedural_Animation\common;C:\Users\User\Music\Procedural_Animation\external\eigen\include;C:\Users\User\Music\Procedural_Animation\external\OpenCV\include;C:\Users\User\Music\Procedural_Animation\common\..\external;C:\Users\User\Music\Procedural_Animation\external\glew\include;C:\Users\User\Music\Procedural_Animation\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;WITH_EIGEN;WITH_OPENCV;OPENGP_HEADERONLY;USE_EIGEN;WITH_OPENGP;WITH_OPENGL;GLEW_STATIC;WITH_GLEW;WITH_GLFW;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;WITH_EIGEN;WITH_OPENCV;OPENGP_HEADERONLY;USE_EIGEN;WITH_OPENGP;WITH_OPENGL;GLEW_STATIC;WITH_GLEW;WITH_GLFW;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\User\Music\Procedural_Animation\common;C:\Users\User\Music\Procedural_Animation\external\eigen\include;C:\Users\User\Music\Procedural_Animation\external\OpenCV\include;C:\Users\User\Music\Procedural_Animation\common\..\external;C:\Users\User\Music\Procedural_Animation\external\glew\include;C:\Users\User\Music\Procedural_Animation\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\User\Music\Procedural_Animation\common;C:\Users\User\Music\Procedural_Animation\external\eigen\include;C:\Users\User\Music\Procedural_Animation\external\OpenCV\include;C:\Users\User\Music\Procedural_Animation\common\..\external;C:\Users\User\Music\Procedural_Animation\external\glew\include;C:\Users\User\Music\Procedural_Animation\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>legacy_stdio_definitions.lib;..\..\external\OpenCV\lib\opencv_core453.lib;..\..\external\OpenCV\lib\opencv_highgui453.lib;..\..\external\OpenCV\lib\opencv_imgcodecs453.lib;..\..\external\OpenCV\lib\opencv_imgproc453.lib;..\..\external\OpenCV\lib\opencv_videoio453.lib;..\..\external\OpenCV\lib\zlib.lib;opengl32.lib;glu32.lib;..\..\external\glew\lib\x64\glew64.lib;..\..\external\glfw\lib-vc2017\glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/User/Music/Procedural_Animation/build/Terrains/Release/Terrains.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/User/Music/Procedural_Animation/build/Terrains/Release/Terrains.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\User\Music\Procedural_Animation\common;C:\Users\User\Music\Procedural_Animation\external\eigen\include;C:\Users\User\Music\Procedural_Animation\external\OpenCV\include;C:\Users\User\Music\Procedural_Animation\common\..\external;C:\Users\User\Music\Procedural_Animation\external\glew\include;C:\Users\User\Music\Procedural_Animation\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WITH_EIGEN;WITH_OPENCV;OPENGP_HEADERONLY;USE_EIGEN;WITH_OPENGP;WITH_OPENGL;GLEW_STATIC;WITH_GLEW;WITH_GLFW;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WITH_EIGEN;WITH_OPENCV;OPENGP_HEADERONLY;USE_EIGEN;WITH_OPENGP;WITH_OPENGL;GLEW_STATIC;WITH_GLEW;WITH_GLFW;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\User\Music\Procedural_Animation\common;C:\Users\User\Music\Procedural_Animation\external\eigen\include;C:\Users\User\Music\Procedural_Animation\external\OpenCV\include;C:\Users\User\Music\Procedural_Animation\common\..\external;C:\Users\User\Music\Procedural_Animation\external\glew\include;C:\Users\User\Music\Procedural_Animation\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\User\Music\Procedural_Animation\common;C:\Users\User\Music\Procedural_Animation\external\eigen\include;C:\Users\User\Music\Procedural_Animation\external\OpenCV\include;C:\Users\User\Music\Procedural_Animation\common\..\external;C:\Users\User\Music\Procedural_Animation\external\glew\include;C:\Users\User\Music\Procedural_Animation\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>legacy_stdio_definitions.lib;..\..\external\OpenCV\lib\opencv_core453.lib;..\..\external\OpenCV\lib\opencv_highgui453.lib;..\..\external\OpenCV\lib\opencv_imgcodecs453.lib;..\..\external\OpenCV\lib\opencv_imgproc453.lib;..\..\external\OpenCV\lib\opencv_videoio453.lib;..\..\external\OpenCV\lib\zlib.lib;opengl32.lib;glu32.lib;..\..\external\glew\lib\x64\glew64.lib;..\..\external\glfw\lib-vc2017\glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/User/Music/Procedural_Animation/build/Terrains/MinSizeRel/Terrains.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/User/Music/Procedural_Animation/build/Terrains/MinSizeRel/Terrains.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\User\Music\Procedural_Animation\common;C:\Users\User\Music\Procedural_Animation\external\eigen\include;C:\Users\User\Music\Procedural_Animation\external\OpenCV\include;C:\Users\User\Music\Procedural_Animation\common\..\external;C:\Users\User\Music\Procedural_Animation\external\glew\include;C:\Users\User\Music\Procedural_Animation\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WITH_EIGEN;WITH_OPENCV;OPENGP_HEADERONLY;USE_EIGEN;WITH_OPENGP;WITH_OPENGL;GLEW_STATIC;WITH_GLEW;WITH_GLFW;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WITH_EIGEN;WITH_OPENCV;OPENGP_HEADERONLY;USE_EIGEN;WITH_OPENGP;WITH_OPENGL;GLEW_STATIC;WITH_GLEW;WITH_GLFW;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\User\Music\Procedural_Animation\common;C:\Users\User\Music\Procedural_Animation\external\eigen\include;C:\Users\User\Music\Procedural_Animation\external\OpenCV\include;C:\Users\User\Music\Procedural_Animation\common\..\external;C:\Users\User\Music\Procedural_Animation\external\glew\include;C:\Users\User\Music\Procedural_Animation\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\User\Music\Procedural_Animation\common;C:\Users\User\Music\Procedural_Animation\external\eigen\include;C:\Users\User\Music\Procedural_Animation\external\OpenCV\include;C:\Users\User\Music\Procedural_Animation\common\..\external;C:\Users\User\Music\Procedural_Animation\external\glew\include;C:\Users\User\Music\Procedural_Animation\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>legacy_stdio_definitions.lib;..\..\external\OpenCV\lib\opencv_core453.lib;..\..\external\OpenCV\lib\opencv_highgui453.lib;..\..\external\OpenCV\lib\opencv_imgcodecs453.lib;..\..\external\OpenCV\lib\opencv_imgproc453.lib;..\..\external\OpenCV\lib\opencv_videoio453.lib;..\..\external\OpenCV\lib\zlib.lib;opengl32.lib;glu32.lib;..\..\external\glew\lib\x64\glew64.lib;..\..\external\glfw\lib-vc2017\glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/User/Music/Procedural_Animation/build/Terrains/RelWithDebInfo/Terrains.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/User/Music/Procedural_Animation/build/Terrains/RelWithDebInfo/Terrains.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Music\Procedural_Animation\Terrains\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/User/Music/Procedural_Animation/Terrains/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/User/Music/Procedural_Animation -BC:/Users/User/Music/Procedural_Animation/build --check-stamp-file C:/Users/User/Music/Procedural_Animation/build/Terrains/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\User\Music\Procedural_Animation\build\Terrains\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/User/Music/Procedural_Animation/Terrains/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/User/Music/Procedural_Animation -BC:/Users/User/Music/Procedural_Animation/build --check-stamp-file C:/Users/User/Music/Procedural_Animation/build/Terrains/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\User\Music\Procedural_Animation\build\Terrains\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/User/Music/Procedural_Animation/Terrains/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/User/Music/Procedural_Animation -BC:/Users/User/Music/Procedural_Animation/build --check-stamp-file C:/Users/User/Music/Procedural_Animation/build/Terrains/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\User\Music\Procedural_Animation\build\Terrains\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/User/Music/Procedural_Animation/Terrains/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/User/Music/Procedural_Animation -BC:/Users/User/Music/Procedural_Animation/build --check-stamp-file C:/Users/User/Music/Procedural_Animation/build/Terrains/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\User\Music\Procedural_Animation\build\Terrains\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\User\Music\Procedural_Animation\Terrains\main.cpp" />
+    <ClInclude Include="C:\Users\User\Music\Procedural_Animation\Terrains\loadTexture.h" />
+    <ClInclude Include="C:\Users\User\Music\Procedural_Animation\Terrains\noise.h" />
+    <None Include="C:\Users\User\Music\Procedural_Animation\Terrains\skybox_fshader.glsl">
+    </None>
+    <None Include="C:\Users\User\Music\Procedural_Animation\Terrains\skybox_vshader.glsl">
+    </None>
+    <None Include="C:\Users\User\Music\Procedural_Animation\Terrains\terrain_fshader.glsl">
+    </None>
+    <None Include="C:\Users\User\Music\Procedural_Animation\Terrains\terrain_vshader.glsl">
+    </None>
+    <None Include="C:\Users\User\Music\Procedural_Animation\Terrains\water2_fshader.glsl">
+    </None>
+    <None Include="C:\Users\User\Music\Procedural_Animation\Terrains\water2_vshader.glsl">
+    </None>
+    <None Include="C:\Users\User\Music\Procedural_Animation\Terrains\water_fshader.glsl">
+    </None>
+    <None Include="C:\Users\User\Music\Procedural_Animation\Terrains\water_vshader.glsl">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\User\Music\Procedural_Animation\build\ZERO_CHECK.vcxproj">
+      <Project>{FBA4E1AC-6BB6-388E-B61C-A0149220A106}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

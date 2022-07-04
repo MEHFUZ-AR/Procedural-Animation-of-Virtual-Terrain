@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Music\Procedural_Animation\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\User\Music\Procedural_Animation\common\icg_common.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\User\Music\Procedural_Animation\common\picoPNG.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\User\Music\Procedural_Animation\common\png.h">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{AE0F83B7-7BBE-3379-84BE-C8E0B149FDF8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
